@@ -89,7 +89,7 @@ The rest of this topic discusses how to port C++ libraries (DLLs and static libr
         GIRAFFE_API GiraffeFactory();  
         GIRAFFE_API static int GetNextID();  
         GIRAFFE_API static Giraffe* Create();  
-   };  
+    };  
     ```  
   
      And the following code file:  
