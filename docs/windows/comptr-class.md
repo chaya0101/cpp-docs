@@ -17,7 +17,7 @@ Creates a *smart pointer* type that represents the interface specified by the te
   
 ## Syntax  
   
-```  
+```cpp  
 template <typename T>  
 class ComPtr;  
   
@@ -25,7 +25,7 @@ template<class T>
 friend class ComPtr;  
 ```  
   
-#### Parameters  
+### Parameters  
  *T*  
  The interface that the **ComPtr** represents.  
   
@@ -35,7 +35,7 @@ friend class ComPtr;
 ## Remarks  
  `ComPtr<>` declares a type that represents the underlying interface pointer. Use `ComPtr<>` to declare a variable and then use the arrow member-access operator (`->`) to access an interface member function.  
   
- For more information about smart pointers, see the "COM Smart Pointers" subsection of the [COM Coding Practices](http://msdn.microsoft.com/76aca556-b4d6-4e67-a2a3-4439900f0c39)topic in the MSDN Library.  
+ For more information about smart pointers, see the "COM Smart Pointers" subsection of the [COM Coding Practices](/windows/desktop/LearnWin32/com-coding-practices)topic in the MSDN Library.  
   
 ## Members  
   
